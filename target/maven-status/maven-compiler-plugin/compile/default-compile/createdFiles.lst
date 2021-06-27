@@ -1,0 +1,8 @@
+com\qatest\PR\util\BrowserFactory.class
+com\qatest\PR\util\Helper.class
+com\qatest\PR\util\Excel_Reader.class
+com\qatest\PR\util\ConfigDataProvider.class
+com\qatest\PR\datadriven\TestDataUtil.class
+com\qatest\PR\base\BaseClass.class
+com\qatest\PR\pages\LoginPage.class
+com\qatest\PR\pages\MakeInOfficeAppointment.class

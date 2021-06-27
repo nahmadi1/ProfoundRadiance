@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-12T10:54:43 EDT" name="Default suite" finished-at="2021-06-12T10:55:13 EDT" duration-ms="29813">
+    <groups>
+    </groups>
+    <test started-at="2021-06-12T10:54:43 EDT" name="Default test" finished-at="2021-06-12T10:55:13 EDT" duration-ms="29813">
+      <class name="com.PRregressionSuite.TestScripts_PR_Regression">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.PRregressionSuite.TestScripts_PR_Regression@13b13b5d]" started-at="2021-06-12T10:54:43 EDT" name="setUpSuite" finished-at="2021-06-12T10:54:43 EDT" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="StartBrowser()[pri:0, instance:com.PRregressionSuite.TestScripts_PR_Regression@13b13b5d]" started-at="2021-06-12T10:54:43 EDT" name="StartBrowser" finished-at="2021-06-12T10:54:51 EDT" duration-ms="8196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartBrowser -->
+        <test-method signature="LoginValidation(java.lang.String, java.lang.String)[pri:0, instance:com.PRregressionSuite.TestScripts_PR_Regression@13b13b5d]" started-at="2021-06-12T10:54:54 EDT" name="LoginValidation" data-provider="getLoginTestData" finished-at="2021-06-12T10:55:12 EDT" duration-ms="17576" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[akhtersalma68@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SanjidHasan04$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginValidation -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.PRregressionSuite.TestScripts_PR_Regression@13b13b5d]" started-at="2021-06-12T10:55:12 EDT" name="tearDownMethod" finished-at="2021-06-12T10:55:12 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginValidation status=SUCCESS method=TestScripts_PR_Regression.LoginValidation(java.lang.String, java.lang.String)[pri:0, instance:com.PRregressionSuite.TestScripts_PR_Regression@13b13b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.PRregressionSuite.TestScripts_PR_Regression@13b13b5d]" started-at="2021-06-12T10:55:12 EDT" name="CloseBrowser" finished-at="2021-06-12T10:55:13 EDT" duration-ms="1060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.PRregressionSuite.TestScripts_PR_Regression -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="35501" started-at="2021-06-27T12:53:41 EDT" finished-at="2021-06-27T12:54:17 EDT">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="35501" started-at="2021-06-27T12:53:41 EDT" finished-at="2021-06-27T12:54:17 EDT">
+      <class name="com.PRregressionSuite.TestScripts_PR_Regression">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.PRregressionSuite.TestScripts_PR_Regression@544fe44c]" name="setUpSuite" is-config="true" duration-ms="10" started-at="2021-06-27T12:53:41 EDT" finished-at="2021-06-27T12:53:41 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="StartBrowser()[pri:0, instance:com.PRregressionSuite.TestScripts_PR_Regression@544fe44c]" name="StartBrowser" is-config="true" duration-ms="4197" started-at="2021-06-27T12:53:41 EDT" finished-at="2021-06-27T12:53:45 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartBrowser -->
+        <test-method status="PASS" signature="loginValidation(java.lang.String, java.lang.String)[pri:0, instance:com.PRregressionSuite.TestScripts_PR_Regression@544fe44c]" name="loginValidation" duration-ms="15607" started-at="2021-06-27T12:53:46 EDT" data-provider="getLoginTestData" finished-at="2021-06-27T12:54:01 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[akhtersalma68@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SanjidHasan04$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidation -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.PRregressionSuite.TestScripts_PR_Regression@544fe44c]" name="tearDownMethod" is-config="true" duration-ms="1" started-at="2021-06-27T12:54:01 EDT" finished-at="2021-06-27T12:54:01 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginValidation status=SUCCESS method=TestScripts_PR_Regression.loginValidation(java.lang.String, java.lang.String)[pri:0, instance:com.PRregressionSuite.TestScripts_PR_Regression@544fe44c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="makeInOfficeAppointmentValidation()[pri:1, instance:com.PRregressionSuite.TestScripts_PR_Regression@544fe44c]" name="makeInOfficeAppointmentValidation" duration-ms="14484" started-at="2021-06-27T12:54:01 EDT" finished-at="2021-06-27T12:54:16 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeInOfficeAppointmentValidation -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.PRregressionSuite.TestScripts_PR_Regression@544fe44c]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2021-06-27T12:54:16 EDT" finished-at="2021-06-27T12:54:16 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=makeInOfficeAppointmentValidation status=SUCCESS method=TestScripts_PR_Regression.makeInOfficeAppointmentValidation()[pri:1, instance:com.PRregressionSuite.TestScripts_PR_Regression@544fe44c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.PRregressionSuite.TestScripts_PR_Regression@544fe44c]" name="CloseBrowser" is-config="true" duration-ms="635" started-at="2021-06-27T12:54:16 EDT" finished-at="2021-06-27T12:54:17 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.PRregressionSuite.TestScripts_PR_Regression -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
